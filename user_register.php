@@ -21,11 +21,8 @@
 action="../controllor/regi_process.php" method="POST">
                 <div id="formarea">
                     <h1>User Register</h1>
-                </div>
-
-            
+                </div>          
                 <section>
-
                     <div>
                          <label for="f_name" class="r_form">Full name</label>
                          <input id="f_name" class="formbox" type="text" name="" onchange="fillRegForm()">
@@ -44,22 +41,13 @@ action="../controllor/regi_process.php" method="POST">
                          <label for="pass2">Confirmation Password</label>
                          <input id="pass2" class="formbox" type="password" name="pass2" onchange="fillRegForm()">
                          <input class="button" id="register_btn" type="submit" value="Register" name="register" disabled>    
-                        
-                        
-                    
+
                     </div>
                 </section>
-
-              
-            
                 <p>Do you have an account? <a class="small_link" href="User_login.php">Login in</a></p>
-            </form>
-
-            
+            </form> 
         </div>
     </div>
-
-
 </div>
 
 

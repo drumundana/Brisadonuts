@@ -1,6 +1,5 @@
 <?php
 session_start();
-
 if(isset($_POST['action']) && $_POST['action'] == 'doLogin') {
  
     $uName = $_POST['username'];
@@ -29,7 +28,6 @@ if(isset($_POST['action']) && $_POST['action'] == 'doLogin') {
     }
 }
 ?>
-
 <!DOCTYPE htlm>
 <html>
 <head>
