@@ -46,31 +46,26 @@
                         </p>
                     </div>
                 </nav>
+                <div class="container-fluid">
+                    <div class="row max-height justify-content center align-items-center">
+                        <div class="col-10 mx-auto banner text-center">
+                            <h1> Welcome to Brisadonuts</h1>
+                        </div>
+                    </div>
+                </div>
         </header>
+        <section class="about py-5" id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="content">
+                        <img src="images\botton.png" alt="donuts" class="image-donuts">
+                        <div class="text">
+                        <h3>"The search for indulgence is over; Brisa Donuts is on!"</h3>
+                        <div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
     </body>
-</html>
-
-    <div class="content">
-        <img src="images\botton.png" alt="donuts" class="image-donuts">
-        <div class="text">
-            <h3>"The search for indulgence is over; Brisa Donuts is on!"</h3>
-        </div>
-    </div>
-    <div class="cater">
-        <img src="images\donut.jpg" alt="donut">
-        <p><b>LET US CATER!</b><br>Do you have an event coming up? Want to replace your wedding cake with a towering stack of doughnuts? Or maybe you want to blow your clients away with the perfect corporate gift? Whatever the occasion, we’ve got you covered!</p>
-
-
-    </div>
-
-
-    <footer class="footer">
-                
-                <p>&copy; 2023 Brisa Donuts. All rights reserved.</p>
-                <p>contato@brisadonuts.com</p>
-    </footer>
-
-    </body>
-
 </html>
