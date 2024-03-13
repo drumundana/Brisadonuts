@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="style/style.css" rel="stylesheet">
+        <link href="style/bootstrap.min.css" rel="stylesheet">
         <tiitle>Home</title>
     </head>
     <body class="home">
@@ -19,18 +20,33 @@
             <div class="collapse navbar-collapse" id="navbarContents">
                 <ul class="navbar-nav text-capitalize mx-auto">
                     <li class="nav-item active">
-                        <a href="#header" class="nav-link">Home</a>
+                        <a href="home.php" class="nav-link">Home</a>
                     </li>
                     <li class="nav-item active">
-                        <a href="#menu" class="nav-link">Menu</a>
+                        <a href="index.php" class="nav-link">Menu</a>
                     </li>
                     <li class="nav-item active">
-                        <a href="#order" class="nav-link">Order</a>
+                        <a href="order.php" class="nav-link">Order</a>
                     </li>
                     <li class="nav-item active">
-                        <a href="#login" class="nav-link">Login</a>
+                        <a href="login.php" class="nav-link">Login</a>
                     </li>
-                </header>
+                </ul>
+                <nav>
+                    <div id="card-info" class="nav-info cart-info align-items-center d-flex justify-content-between mx-lg-5">
+                        <span class="cart-info_icon mr-lg-3">
+                            <i class="fa fa-shopping-cart"></i>
+                        </span>
+                        <p class="mb-0 text-capitalize">
+                            <span id="item-count">0</span>
+                            Items - Rs
+                             <span class="item-count" id="item-total">
+                            0
+                            </span>
+                        </p>
+                    </div>
+                </nav>
+        </header>
 
     </body>
 </html>
