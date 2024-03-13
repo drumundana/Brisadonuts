@@ -1,3 +1,4 @@
+/*=============== BASE ===============*/
 h1{
     font-family: 'Nickainley';
     margin-bottom: 100px;
@@ -23,8 +24,7 @@ p{
     text-align: center;
     font-size: 80%;
 }
-
-/* register form & Login form starts */
+/*=============== LOGIN ===============*/
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     width: 100%;
@@ -127,22 +127,17 @@ input {
     border-radius: 30px;
     margin: 20px 0;
 }
-
 .button:hover {
     transition: .4s;
     opacity: 0.8;
 }
-
 .button:active {
     opacity: 0.8;
 }
-
 textarea {
     margin: 0 0 20px 0;
 }
-/* register form & Login form ends */
-
-/*home starts*/
+/*=============== HOME ===============*/
 body.home {
     background-color: #FFCBCF;
 }
@@ -167,10 +162,8 @@ body.home {
 .image-donuts {
     width: 350px;
 }
-/*home ends*/
 
-
-/* header starts */
+/*=============== HEADER ===============*/
 header {
     background-color: #D9E021;
     text-decoration-color: #FF576B;
@@ -234,112 +227,10 @@ nav ul li {
     margin-right: 20px;
 }
 
-/* header ends */
-
-
-
-
-
-
+/*=============== MENU ===============*/
 body.index{
     background-color: #FA740F;
 }
-
-/* footer starts */
-
-.footer{
-    background-color: #D9E021;
-    margin-top: 30px;
-}
-
-.footer > p {
-    color: black;
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-
-hr.solid {
-    border-top: 3px solid #bbb;
-    width: 80%;
-  }
-
-.navi_menu{
-    width: 300px;
-    position: absolute;
-    left: 0;
-    top: 0;
-    height: 100%;
-	background-color: lightgray;
-}
-
-.navi_menu > ul {
-	width: 300px;
-	margin: 0;
-	padding: 20px 0 0 0;
-	list-style-type: none;
-}
-
-
-.navi_menu > ul > li > a {
-	display: block;
-	padding: 10px 16px;
-	text-decoration: none;
-	color: #000000;
-    height: 50px;
-    padding: 30px 0 0 0;
-}
-
-
-.navi_menu > ul > li  {
-	text-align: center;
-    font-size: 1.3em;
-}
-
-.navi_menu > ul > li :last-child {
-	border-bottom: none;
-}
-
-.navi_menu > ul > li  a.active {
-	color: #ffffff;
-}
-
-
-.navi_menu > ul > li  a:hover:not(.active) {
-	color: #ffffff;
-    transition: .4s;
-	background-color: #1b2538;
-}
-
-.navi_menu > ul > li >.hidden_menu{
-    display: none;
-    transition: .4s;
-    padding: 20px 0 0 0;
-}
-
-
-.navi_menu > ul > li >.hidden_menu > li{
-    height: 50px;
-    list-style: none;
-}
-
-.navi_menu > ul > li >.hidden_menu > li > a{
-    padding: 30px 0 0 0;
-    vertical-align: middle;
-    background-color: transparent !important;
-    width: 300px;
-}
-
-.navi_menu > ul > li:hover a + .hidden_menu{
-    display: block;
-
-}
-
-/* footer ends */
-
-
-/* index */
 
 p1{
     text-align: left;
@@ -392,10 +283,79 @@ p1{
     border: none;
 }
 
+/*=============== FOOTER ===============*/
+.footer{
+    background-color: #D9E021;
+    margin-top: 30px;
+}
+.footer > p {
+    color: black;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+hr.solid {
+    border-top: 3px solid #bbb;
+    width: 80%;
+  }
+.navi_menu{
+    width: 300px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+	background-color: lightgray;
+}
+.navi_menu > ul {
+	width: 300px;
+	margin: 0;
+	padding: 20px 0 0 0;
+	list-style-type: none;
+}
+.navi_menu > ul > li > a {
+	display: block;
+	padding: 10px 16px;
+	text-decoration: none;
+	color: #000000;
+    height: 50px;
+    padding: 30px 0 0 0;
+}
+.navi_menu > ul > li  {
+	text-align: center;
+    font-size: 1.3em;
+}
+.navi_menu > ul > li :last-child {
+	border-bottom: none;
+}
+.navi_menu > ul > li  a.active {
+	color: #ffffff;
+}
+.navi_menu > ul > li  a:hover:not(.active) {
+	color: #ffffff;
+    transition: .4s;
+	background-color: #1b2538;
+}
+.navi_menu > ul > li >.hidden_menu{
+    display: none;
+    transition: .4s;
+    padding: 20px 0 0 0;
+}
+.navi_menu > ul > li >.hidden_menu > li{
+    height: 50px;
+    list-style: none;
+}
 
-/* index ends */
+.navi_menu > ul > li >.hidden_menu > li > a{
+    padding: 30px 0 0 0;
+    vertical-align: middle;
+    background-color: transparent !important;
+    width: 300px;
+}
 
+.navi_menu > ul > li:hover a + .hidden_menu{
+    display: block;
 
+}
 .image-container {
     text-align: center;
 }
@@ -406,8 +366,7 @@ p1{
     margin-top: 250px;
     margin-bottom: 250px;
 }
-
-/* stock manage layout starts */
+/*=============== STOCK MANAGE ===============*/
 body.stock{
     background-color: #A6E4FF;
     font-family: Glacial Indifference;
@@ -464,15 +423,7 @@ td{
     border: 1px solid white;
     border-radius: 10px;
 }
-/* stock manage layout ends */
-
-
-
-
-
-
-/* registration php */
-
+/*=============== REGISTRATION ===============*/
 .customerform{
     display: flex;
     width: 400px;
@@ -506,8 +457,7 @@ input {
     height: 40px;
 }
 
-/* mashups section */
-
+/*=============== MASHUPS ===============*/
 .mashups_sec{
     width: 100%;
    display: flex;
@@ -553,11 +503,7 @@ input {
     height: 460px;
     width: 30%;
 }
-
-
-
-/* product_catalog page starts */
-
+/*=============== PRODUCT_CATALOG PAGE ===============*/
 
 .right_section2{
     padding: 30px 0 0 0 ;

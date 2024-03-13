@@ -1,28 +1,40 @@
-<?php
-session_start();
-?>
-
 <!DOCTYPE html>
-<html>
-<head>
-<meta charset="utf-8">
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="style/style.css" rel="stylesheet" type="text/css">
-        <title>home</title>
-</head>
-<body class="home">
-    <header class="header">
-        <title>Brisa Donuts</title>
-        <img src="images\logo_green.png" alt="Logo Brisa Donuts" class="logo" />
-        <nav>
-            <ul>
-                <li><a class="menu" href="home.php">Home</a></li>
-                <li><a class="menu" href="index.php">Menu</a></li>
-                <li><a class="menu" href="trolley.php">Trolley</a></li>
-                <li><a class="menu" href="User_login.php">Login</a></li>
-            </ul>
-        </nav>
-    </header>
+        <link href="style/style.css" rel="stylesheet">
+        <tiitle>Home</title>
+    </head>
+    <body class="home">
+        <header id="header">
+            <nav class="navbar navbar-expand-lg px-4">
+               <a href="#" class="navbar-brand">
+                <img src="images\logo_green.png" alt="Main Company Logo">
+               </a> 
+            </nav>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarContents" aria-expanded="false" aria-label="Toggle-Navigation">
+                <i class="fa fa-bars" aria-hidden="true" id="toggler-icon"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarContents">
+                <ul class="navbar-nav text-capitalize mx-auto">
+                    <li class="nav-item active">
+                        <a href="#header" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a href="#menu" class="nav-link">Menu</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a href="#order" class="nav-link">Order</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a href="#login" class="nav-link">Login</a>
+                    </li>
+                </header>
+
+    </body>
+</html>
+
     <div class="content">
         <img src="images\botton.png" alt="donuts" class="image-donuts">
         <div class="text">
