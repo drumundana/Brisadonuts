@@ -173,12 +173,10 @@ header {
     box-sizing: border-box;
     margin-bottom: 20px;
 }
-
 @font-face {
     font-family: 'Nickainley';
     src: url('Nickainley-Normal.otf') format('opentype');    
 }
-
 title{
     margin-bottom: 20px;
     text-align: left;
@@ -189,18 +187,11 @@ title{
     font-weight: bold;
 
 }
-
-a.menu{
-    text-decoration: underline;
-    font-size: 30px;
-}
-
 nav ul li a {
     font-family: 'Nickainley';
     color: #FF576B;
     margin-right: 30px;
 }
-
 .header {
     display: flex;
     justify-content: space-between;
@@ -210,12 +201,10 @@ nav ul li a {
 .logo {
     width: 180px;
 }
-
 nav{
     flex: 1;
     text-align: center;
 }
-
 nav ul {
     list-style-type: none;
     margin: 0;

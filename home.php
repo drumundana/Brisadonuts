@@ -10,12 +10,12 @@
     <body class="home">
         <header id="header">
             <nav>
-               <a><img src="images\logo_green.png" alt="Main Company Logo"></a>
+               <a><img src="images\logo_green.png" alt="logo" class="logo"></a>
                <ul>
                 <li><a href="home.php">Home</a></li>
                 <li><a href="index.php">Menu</a></li>
                 <li><a href="order.php">Order</a></li>
-                <li><a href="login.php">Login</a></li>
+                <li><a href="User_login_page.php">Login</a></li>
                </ul> 
             </nav>
                 <div class="container-fluid">
