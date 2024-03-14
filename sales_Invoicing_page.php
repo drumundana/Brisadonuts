@@ -1,24 +1,23 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="utf-8">
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="style/style.css" rel="stylesheet" type="text/css">
-        <title>Sales and Invoicing</title>
-</head>
-<body>
-
-<header class="header">
-        <h3>Brisa Donuts</h3>
-        <nav>
-            <ul>
+        <link href="style/style.css" rel="stylesheet">
+        <link href="style/bootstrap.min.css" rel="stylesheet">
+        <title>Home</title>
+    </head>
+    <body>
+        <header id="header">
+            <nav>
+               <a><img src="images\logo_green.png" alt="logo" class="logo"></a>
+               <ul>
                 <li><a href="home.php">Home</a></li>
                 <li><a href="index.php">Menu</a></li>
-                <li><a href="#">Trolley</a></li>
-                <li><a href="User_login.php">Login</a></li>
-            </ul>
-        </nav>
-    </header>
+                <li><a href="order.php">Order</a></li>
+                <li><a href="User_login_page.php">Login</a></li>
+               </ul> 
+            </nav>
+        </header>
 
     <div class="page-body">
         <h2>Sales and Invoicing</h2>
