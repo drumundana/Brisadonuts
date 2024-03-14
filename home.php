@@ -23,18 +23,19 @@
             <div class="content">
                 <img src="images\botton.png" alt="donuts" class="image-donuts">
                     <div class="text">
-                    <h1>"The search for indulgence is over; Brisa Donuts is on!"</h1>
+                    <h3>"The search for indulgence is over; Brisa Donuts is on!"</h3>
                     </div>
             </div>
         </section>
         <section>
           <div>
             <h1>Let us Cater!</h1>
-            <p>Do you have an event coming up? Want to replace your wedding cake with a towering stack of doughnuts? Or maybe you want to blow your clients away with the perfect corporate gift? Whatever the occasion, we’ve got you covered!</p>
+            <h3>Do you have an event coming up? Want to replace your wedding cake with a towering stack of doughnuts? Or maybe you want to blow your clients away with the perfect corporate gift? Whatever the occasion, we’ve got you covered!</h3>
           </div>
         </section>
-      <footer>
-        
+      <footer class="footer">              
+      <p>&copy; 2023 Brisa Donuts. All rights reserved.</p>
+      <p>contato@brisadonuts.com</p>
       </footer>
 </body>
 </html>
