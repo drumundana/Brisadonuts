@@ -141,7 +141,6 @@ textarea {
 body.home {
     background-color: #FFCBCF;
 }
-
 .content {
     display: flex;
     align-items: center;
@@ -151,14 +150,12 @@ body.home {
     margin-right: 300px;
     padding: 0;
 }
-
 .text {
     margin-right: 20px;
     margin-left: 20px;
     word-wrap: break-word;
     text-align: left;
 }
-
 .image-donuts {
     width: 350px;
 }
@@ -187,6 +184,13 @@ title{
     font-weight: bold;
 
 }
+<<<<<<< HEAD
+a.menu{
+    text-decoration: underline;
+    font-size: 30px;
+}
+=======
+>>>>>>> abc14385d91a9f69e6b807cdc36b6752006e0279
 nav ul li a {
     font-family: 'Nickainley';
     color: #FF576B;
@@ -354,6 +358,62 @@ hr.solid {
     margin: 0 auto;
     margin-top: 250px;
     margin-bottom: 250px;
+}
+
+/*=============== MENU ===============*/
+body.index{
+    background-color: #FA740F;
+}
+
+p1{
+    text-align: left;
+    font-size: 20px;
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('Montserrat-Light.otf') format('opentype')    
+}
+
+.text-content {
+    font-family: 'Montserrat';
+    font-size: 16px;
+}
+
+.product img{
+    width: 120px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.item-content {
+    display: flex;
+    align-items: center;
+}
+
+.button.cart {
+    cursor: pointer;
+    opacity: 0.6;
+    width: 120px;
+    height: 50px;
+    border-radius: 30px;
+    margin: 20px 0;
+    background: none;
+    border: none;
 }
 /*=============== STOCK MANAGE ===============*/
 body.stock{
