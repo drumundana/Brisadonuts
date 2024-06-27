@@ -12,8 +12,6 @@
     <div class="login-box">
         <form action="">
             <h2>User Registration Form</h2>
-            <div>
-                <label>Name</label>
                 <div class="input-box">
                     <input type="firstname" required>
                     <label>First Name</label>
@@ -22,7 +20,6 @@
                     <input type="lastname" required>
                     <label>Last Name</label>
                 </div>
-            </div>
             <div class="input-box">
                 <input type="username" required>
                 <label>Username</label>
