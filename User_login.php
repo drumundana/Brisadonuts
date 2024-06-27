@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
+    <section>
     <div class="login-box">
         <form action="">
             <h2>User Login</h2>
@@ -32,5 +33,6 @@
         </form>
         <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
         <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</section>
 </body>
 </html>
