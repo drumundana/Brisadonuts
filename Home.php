@@ -24,7 +24,9 @@
         <h1><ion-icon name="hardware-chip-outline"></ion-icon>LPA eComms</h1>
     </div>
   </div>
-
+  <footer>
+    <p>LPA eComms</p>
+  </footer>
 
   <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
