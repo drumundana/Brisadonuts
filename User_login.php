@@ -27,7 +27,7 @@
                 <a href="#">Forgot Password?</a>
             </div>
             <button type="submit">Login</button>
-            <div class="user_register.php">
+            <div class="register-link">
                 <p>Don't have an account? <a heref="#">Register</a></p>
             </div>
         </form>
