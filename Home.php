@@ -19,6 +19,13 @@
       <button type="submit"><ion-icon name="search-outline"></ion-icon></button>
     </form>
   </header>
+  <div class="container">
+    <div class="content">
+        <h1><ion-icon name="hardware-chip-outline"></ion-icon>LPA eComms</h1>
+    </div>
+  </div>
+
+
   <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
