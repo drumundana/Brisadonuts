@@ -1,30 +1,23 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="style/style.css" rel="stylesheet" type="text/css">
+    <title>User Login</title>
+    <link rel="stylesheet" href="style/styles.css">
 </head>
 <body>
-    <div class="main_container" id="first_screen">
-    <div class="main_sec">
-        <div class="right_section">
-            <form id="loginform" method="POST" action="login_process.php">
-                <div id="formarea">
-                    <h1>User Login</h1>
-                </div>
-                <label for="username">Username</label>
-                <input id="username" class="formbox" type="text" name="username" onchange="fillLogForm()">
-                     
-                <label for="password">Password</label>
-                <input id="password" class="formbox" type="password" name="password" onchange="fillLogForm()"> 
-                <input type="hidden" name="action" value="doLogin">
-                <input class="button" id="login_btn" type="submit" value="Login" name="login" disabled>
-
-                    <p>Don't you have an account? <a class="small_link" href="user_register.php">Sign in</a></p>
-            </form>
+    <div class="login-dialog">
+        <div class="dialog-title-bar">
+            <span class="dialog-title">User Login</span>
         </div>
+        <form class="login-form">
+            <label for="username">User Name</label>
+            <input type="text" id="username" name="username" required>
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required>
+            <button type="submit">Login</button>
+        </form>
     </div>
-</div>
 </body>
 </html>
