@@ -16,7 +16,7 @@
     </nav>
     <form action="#" class="search-bar">
       <input type="text" placeholder="Search...">
-      <button type="submit"><ion-icon name="search-circle-outline"></ion-icon></button>
+      <button type="submit"><ion-icon name="search-outline"></ion-icon></button>
     </form>
   </header>
   <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
