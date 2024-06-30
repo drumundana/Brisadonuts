@@ -24,10 +24,27 @@
         <h1><ion-icon name="hardware-chip-outline"></ion-icon>LPA eComms</h1>
     </div>
   </div>
+  <section>
+            <h2>Nossos Produtos</h2>
+            <div class="produto">
+                <h3>Teclado Mecânico</h3>
+                <p>R$ 250,00</p>
+                <button onclick="adicionarAoCarrinho('Teclado Mecânico', 250)">Adicionar ao Carrinho</button>
+            </div>
+            <div class="produto">
+                <h3>Mouse Gamer</h3>
+                <p>R$ 150,00</p>
+                <button onclick="adicionarAoCarrinho('Mouse Gamer', 150)">Adicionar ao Carrinho</button>
+            </div>
+            <div class="produto">
+                <h3>Headset</h3>
+                <p>R$ 200,00</p>
+                <button onclick="adicionarAoCarrinho('Headset', 200)">Adicionar ao Carrinho</button>
+            </div>
+        </section>
   <footer>
-    <p>LPA eComms</p>
+      <p>&copy; 2024 LPA eComms. All rights reserved.</p>
   </footer>
-
   <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
