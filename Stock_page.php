@@ -12,7 +12,7 @@
             <nav class="navbar">
                 <a href="Main.php">Home</a>
                 <a href="Stock_page.php">Stock</a>
-                <a href="#">Invoice</a>
+                <a href="Invoice.php">Invoice</a>
                 <a href="#">Login</a>
             </nav>
             <form action="#" class="search-bar">

@@ -10,9 +10,10 @@
 <body>
   <header class="header">
     <nav class="navbar">
-      <a href="home.php">Home</a>
-      <a href="#">Cart</a>
-      <a href="Costumer_login.php">Login</a>
+        <a href="Main.php">Home</a>
+        <a href="Stock_page.php">Stock</a>
+        <a href="Invoice.php">Invoice</a>
+        <a href="#">Login</a>
     </nav>
     <form action="#" class="search-bar">
       <input type="text" placeholder="Search...">
