@@ -25,11 +25,13 @@
     </div>
     <div class="Product">
       <div class="imgProduct">
-        <img src="" alt="" class="MinProduct"/>
+        <img src="drumundana/Brisatech/images/logo.png" alt="" class="MinProduct"/>
       </div>
       <div class="title">
         <p>Curso PHP</p>
         <h3>AU$ 5,00</h3>
+        <input type="hidden" name="id_product" value="">
+        <input type="submit" class="value" value="">
         <button class="cart">+<ion-icon name="cart-outline"></ion-icon></button>
       </div>
     </div>

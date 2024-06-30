@@ -239,6 +239,7 @@ h3{
     width: 60%;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 20px;
+
 }
 .imgProduct{
     width: 100%;
