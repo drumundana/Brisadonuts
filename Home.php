@@ -26,9 +26,9 @@
     <div>
       <div src="">
         <div>
-        <h3>Nome do produto</h3>
-        <h4>Descrição</h4>
-        <span>$ 5,00</span>
+        <h2>Nome do produto</h2>
+        <h3>Descrição</h3>
+        <h3>$ 5,00</h3>
         <button><ion-icon name="cart-outline"></ion-icon></button>
       </div>
     </div>
