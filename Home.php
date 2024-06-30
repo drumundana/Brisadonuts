@@ -23,25 +23,17 @@
     <div class="content">
         <h1><ion-icon name="hardware-chip-outline"></ion-icon>LPA eComms</h1>
     </div>
+    <div>
+      <div src="">
+        <div>
+        <h3>Nome do produto</h3>
+        <h4>Descrição</h4>
+        <span>$ 5,00</span>
+        <button><ion-icon name="cart-outline"></ion-icon></button>
+      </div>
+    </div>
   </div>
-  <section>
-            <h2>Nossos Produtos</h2>
-            <div class="produto">
-                <h3>Teclado Mecânico</h3>
-                <p>R$ 250,00</p>
-                <button onclick="adicionarAoCarrinho('Teclado Mecânico', 250)">Adicionar ao Carrinho</button>
-            </div>
-            <div class="produto">
-                <h3>Mouse Gamer</h3>
-                <p>R$ 150,00</p>
-                <button onclick="adicionarAoCarrinho('Mouse Gamer', 150)">Adicionar ao Carrinho</button>
-            </div>
-            <div class="produto">
-                <h3>Headset</h3>
-                <p>R$ 200,00</p>
-                <button onclick="adicionarAoCarrinho('Headset', 200)">Adicionar ao Carrinho</button>
-            </div>
-        </section>
+
   <footer>
       <p>&copy; 2024 LPA eComms. All rights reserved.</p>
   </footer>
