@@ -222,3 +222,15 @@ h3{
     color: black;
     text-align: left;
 }
+cart{
+    width: 100%;
+    height: 40px;
+    background: #1d1e42;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 1em;
+    color: #000;
+    font-weight: 500;
+}

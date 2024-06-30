@@ -29,6 +29,7 @@
       <div class="title">
         <p>Curso PHP</p>
         <h3>AU$ 5,00</h3>
+        <button class="cart"><ion-icon name="cart-outline"></ion-icon></button>
       </div>
     </div>
     </div>
