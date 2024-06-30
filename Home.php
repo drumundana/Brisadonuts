@@ -20,8 +20,9 @@
     </form>
   </header>
   <div class="container">
-    <div class="content">
+    <div>
         <h1><ion-icon name="hardware-chip-outline"></ion-icon>LPA eComms</h1>
+    </div>
     <div class="Product">
       <div class="imgProduct">
         <img src="" alt="" class="MinProduct"/>
@@ -33,7 +34,6 @@
       </div>
     </div>
     </div>
-  </div>
 
   <footer>
       <p>&copy; 2024 LPA eComms. All rights reserved.</p>
