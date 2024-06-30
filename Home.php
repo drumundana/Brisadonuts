@@ -11,7 +11,7 @@
   <header class="header">
     <nav class="navbar">
       <a href="home.php">Home</a>
-      <a href="#">Cart</a>
+      <a href="Cart.php">Cart</a>
       <a href="Costumer_login.php">Login</a>
     </nav>
     <form action="#" class="search-bar">

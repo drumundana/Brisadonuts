@@ -6,6 +6,15 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Stock Management Page</title>
         <link rel="stylesheet" href="style/style.css">
+        <script>
+        async function fetchStocks() {
+            const response = await fetch('http://localhost:8080/api/stocks');
+            const stocks = await response.json();
+            console.log(stocks);
+            // Exibir os dados na página
+        }
+        window.onload = fetchStocks;
+        </script>
     </head>
     <body>
         <header class="header">
