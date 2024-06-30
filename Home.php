@@ -22,7 +22,6 @@
   <div class="container">
     <div class="content">
         <h1><ion-icon name="hardware-chip-outline"></ion-icon>LPA eComms</h1>
-    </div>
     <div class="Product">
       <div class="imgProduct">
         <img src="" alt="" class="MinProduct"/>
@@ -31,6 +30,7 @@
         <p>Curso PHP</p>
         <h3>AU$ 5,00</h3>
       </div>
+    </div>
     </div>
   </div>
 
