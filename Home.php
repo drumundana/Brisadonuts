@@ -24,7 +24,7 @@
         <h1><ion-icon name="hardware-chip-outline"></ion-icon>LPA eComms</h1>
     <div class="Product">
       <div class="imgProduct">
-        <img src="drumundana/Brisatech/images/login_background.png" alt="" class="MinProduct"/>
+        <img src="" alt="" class="MinProduct"/>
       </div>
       <div class="title">
         <p>Curso PHP</p>
