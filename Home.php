@@ -23,13 +23,13 @@
     <div class="content">
         <h1><ion-icon name="hardware-chip-outline"></ion-icon>LPA eComms</h1>
     </div>
-    <div>
-      <div src="">
-        <div>
-        <h2>Nome do produto</h2>
-        <h3>Descrição</h3>
-        <h3>$ 5,00</h3>
-        <button><ion-icon name="cart-outline"></ion-icon></button>
+    <div class="Product">
+      <div class="imgProduct">
+        <img src="" alt="" class="MinProduct"/>
+      </div>
+      <div class="title">
+        <p>Curso PHP</p>
+        <h3>AU$ 5,00</h3>
       </div>
     </div>
   </div>
