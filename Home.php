@@ -37,6 +37,9 @@
 
   <footer>
       <p>&copy; 2024 LPA eComms. All rights reserved.</p>
+      <nav>
+        <a href="Main.php">Admin</a>
+      </nav>
   </footer>
   <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
