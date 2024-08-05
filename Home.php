@@ -19,36 +19,21 @@
       <button type="submit"><ion-icon name="search-outline"></ion-icon></button>
     </form>
   </header>
+  <h1><ion-icon name="hardware-chip-outline"></ion-icon>LPA eComms</h1>
   <div class="container">
     <div class="row products-home">
-      ::before == $0
       <div id="prodare">
         <a class="commerce_coumns_item_image" title="Microfone Gamer Super Frame Voice, RGB, USB, Black, MSF-VOICE-RGB"></a>
-        
+        <div class="pbox col-xs-12 col-sm-6 col-md-3 col-lg-1-5">
+          <a class="commerce_columns_item_image" title="Microfone Gamer SuperFrame Voice, RGB, USB, Black, MSF-VOICE-RGB"></a>
+          <div class="commerce_columns_item_inner">
+          </div>
+        </div>
       </div>
 
 
     </div>
 
-
-
-
-
-
-    <div>
-        <h1><ion-icon name="hardware-chip-outline"></ion-icon>LPA eComms</h1>
-    </div>
-    <div class="Product">
-      <div class="imgProduct">
-        <img src="drumundana/Brisatech/images/logo.png" alt="" class="MinProduct"/>
-      </div>
-      <div class="title">
-        <p>Curso PHP</p>
-        <h3>AU$ 5,00</h3>
-        <button class="cart" type="submit">+<ion-icon name="cart-outline"></ion-icon></button>
-      </div>
-    </div>
-    </div>
 
   <footer>
       <p>&copy; 2024 LPA eComms. All rights reserved.</p>
